@@ -205,7 +205,7 @@ function drawPixel(imagedata,x,y,color) {
 // get the input ellipsoids from the standard class URL
 function getInputEllipsoids() {
     const INPUT_ELLIPSOIDS_URL = 
-        "https://github.com/NCSUCGClass/prog1/blob/gh-pages/ellipsoids.json";
+        "https://ncsucgclass.github.io/prog1/ellipsoids.json";
         
     // load the ellipsoids file
     var httpReq = new XMLHttpRequest(); // a new http request
@@ -416,6 +416,7 @@ function main() {
     // Create the image
     // partialFeedback(context);
     drawInputEllipsoids(context)
+
 }
 
 /** unused functions */
